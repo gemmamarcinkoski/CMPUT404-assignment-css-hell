@@ -1,0 +1,152 @@
+body {
+    font-family: cursive;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: radial-gradient(#FFFFFF, #F8ECC2 )
+}
+
+p {     
+    margin-top: .75em;
+    margin-bottom: .75em;
+    text-align: justify;
+    line-height:1.3em;
+    text-indent: 2em;    
+    }
+
+small { 
+    font-size:60%;
+}
+
+h1,h2,h3 {
+    text-align: center;
+    clear: both;
+    }
+
+p.title {
+    font-size: 150%;
+    text-align:center;
+    font-weight:bold;
+    text-indent:0;
+    }
+
+.pagenum  {
+    position: absolute;
+    left: 92%;
+    font-size: 13px;      /* same appearance for pagenums in <h> */
+    font-weight: normal;  /* regular <p> or in the index */
+    font-variant:normal; font-style:normal;
+    text-indent: 0em; text-align:right;
+    color: silver;
+    background-color: antiquewhite;
+    }
+
+.center { 
+    text-align: center; text-indent:0;
+    margin-right:auto; margin-left:auto;
+    margin-top:2em; margin-bottom:2em;
+}
+
+hr {    
+    width:45%;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+
+/* hr major, minor, ul.toc, li,td, and table only for neitzche */
+hr.major { 
+    width:75%;
+    margin-top:2em;
+    margin-bottom: 2em;
+}
+hr.minor {
+    width:30%;
+    margin-top:0.5em;
+    margin-bottom: 0.5em;
+}
+
+ul.toc {
+    position: relative;
+    width:70%; margin-left: 15%;
+    list-style-type:none;
+    font-variant:small-caps;   
+}
+
+li {    
+    margin-top: 0.25em;
+    line-height: 1.2em; 
+}
+
+td {    
+    text-align:left;
+    vertical-align:top;
+    }
+table {
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+}
+
+blockquote {
+    margin-left:0; margin-right:0;
+    margin-top:0.5em;;
+    width:100%;
+    font-size:0.9em;
+}
+
+.footnote   {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 0.9em;
+}
+.footnote .label  {
+    position: absolute;
+    right: 85%;
+    text-align: right;
+}
+.fnanchor   {
+    vertical-align: super;
+    font-size: .8em;
+    text-decoration: none;
+}
+p .fnanchor {
+    line-height:0.1;
+}
+div p { 
+    text-indent:0;
+    margin-top: .75em;
+    margin-bottom: .75em;
+}
+
+span.ralign { 
+    position: absolute;
+    right: 0;
+    top: auto;
+}
+
+span.ralign a {
+    font-variant:normal;
+}
+
+/*OLD STYLES BELOW */
+
+/*<![CDATA[  XML blockout */
+
+/* haha wtf is this span[title].pagenum:after {
+        content: "[" attr(title) "] ";
+    }
+/*a[name] { position:absolute; }      Fix Opera bug  */
+
+/* body { margin:5%; background:#faebd0; text-align:justify}
+    P { text-indent: 1em; margin-top: .25em; margin-bottom: .25em; }
+    H1,H2,H3,H4,H5,H6 { text-align: center; margin-left: 15%; margin-right: 15%; }
+    hr  { width: 50%; text-align: center;}
+    .foot { margin-left: 20%; margin-right: 20%; text-align: justify; text-indent: -3em; font-size: 90%; }
+    blockquote {font-size: 97%; font-style: italic; margin-left: 10%; margin-right: 10%;}
+    .mynote    {background-color: #DDE; color: #000; padding: .5em; margin-left: 10%; margin-right: 10%; font-family: sans-serif; font-size: 95%;}
+    .toc       { margin-left: 10%; margin-bottom: .75em;}
+    .toc2      { margin-left: 20%;}
+    div.fig { display:block; margin:0 auto; text-align:center; }
+    .figleft   {float: left; margin-left: 0%; margin-right: 1%;}
+    .figright  {float: right; margin-right: 0%; margin-left: 1%;}
+    pre     { font-style: italic; font-size: 90%; margin-left: 10%;}

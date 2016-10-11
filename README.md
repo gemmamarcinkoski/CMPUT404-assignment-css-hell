@@ -1,3 +1,7 @@
+Part 1 HTML Modifications: removed inline CSS styles and inserted this line
+
+     < link rel="stylesheet" type="text/css" href="philosophicalStyle.css" > 
+
 Assignment: CSS Hell
 ====================
 
