@@ -1,0 +1,49 @@
+body {
+    font-family: helvetica, monospace;
+    background-color: gainsboro;
+    font-size: large;
+    
+}
+
+#container {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#header {
+    background-color: aquamarine;
+    color:white;
+    text-align: center;
+    padding: 50px;
+    background-image: url("White-Wood-Texture.jpg");
+}
+
+#content {
+    padding: 50px;
+    display: flex;
+}
+
+#nav {
+    padding-top: 300px;
+    width: 300px;
+    float: right;
+    padding:50px;
+    background-color: lightgray;
+    
+}
+
+#main {
+    float: left;
+    padding: 20px;
+}
+
+#footer{
+    clear: both;
+    padding: 30px;
+    text-align: right;
+    background-color: black;
+    color: white;
+
+}

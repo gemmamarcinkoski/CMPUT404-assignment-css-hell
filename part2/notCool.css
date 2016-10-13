@@ -1,0 +1,60 @@
+body {
+    font-family: Comic Sans MS;
+    background-color: gainsboro;
+    font-size: large;
+    
+}
+
+#container {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#header {
+    color:white;
+    text-align: center;
+    padding: 175px;
+    background-image: url("lens-flare.jpg");
+    font-size-adjust: 
+
+}
+
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+#content {
+    padding: 10px;
+    display: flex;
+}
+
+#nav {
+    padding-top: 300px;
+    width: 400px;
+    float: right;
+    padding: 10px;
+    background-color: yellow;
+    color: blue;
+    
+    
+}
+
+#main {
+    float: left;
+    padding: 20px;
+}
+
+#footer{
+    clear: both;
+    padding: 30px;
+    text-align: right;
+    background-color: black;
+    color: white;
+
+}
