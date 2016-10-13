@@ -25,4 +25,6 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+Rainbow code from: https://rainbowcoding.com/how-to-create-rainbow-text-in-html-css-javascript/
+
 
